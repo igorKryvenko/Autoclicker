@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MouseHook">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/MouseHook.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

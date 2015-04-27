@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Autoclicker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Autoclicker_jar</output-path>
+    <root id="archive" name="Autoclicker.jar">
+      <element id="module-output" name="Autoclicker" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/MouseHook.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
