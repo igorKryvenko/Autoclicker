@@ -1,11 +1,14 @@
-import javax.swing.*;
 import de.ksquared.system.mouse.GlobalMouseListener;
 import de.ksquared.system.mouse.MouseAdapter;
 import de.ksquared.system.mouse.MouseEvent;
 
-
+import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -24,6 +27,17 @@ public class MainWindow extends JFrame {
         setContentPane(rootPanel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(500,500,500,500);
+        try {
+            Image startImage = ImageIO.read(getClass().getResource("resources/start1.jpg"));
+            //playButton = new JButton();
+            Image playImage = ImageIO.read(getClass().getResource("resources/play1.jpg"));
+            Image stopImage = ImageIO.read(getClass().getResource("resources/wm_pause1.png"));
+
+            playButton.setIcon(new ImageIcon(playImage));
+            startRecordButton.setIcon(new ImageIcon(startImage));
+            stopButton.setIcon(new ImageIcon(stopImage));
+        } catch (IOException ex) {
+        }
 
         pack();
 

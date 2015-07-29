@@ -16,7 +16,7 @@
         </constraints>
         <properties>
           <enabled value="false"/>
-          <text value="Stop"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="e2767" class="javax.swing.JButton" binding="startRecordButton">
@@ -26,7 +26,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="StartRecord"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="e644c" class="javax.swing.JButton" binding="playButton">
@@ -37,7 +37,7 @@
         </constraints>
         <properties>
           <enabled value="false"/>
-          <text value="Play"/>
+          <text value=""/>
         </properties>
       </component>
     </children>
